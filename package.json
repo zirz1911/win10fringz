@@ -1,0 +1,16 @@
+{
+  "name": "baka-mitai",
+  "version": "1.0.0",
+  "description": "Responsive Windows 10 PP Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Patipan Thummanok",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "node-sass": "^4.14.1",
+    "touch-for-windows": "^1.0.0"
+  }
+}
