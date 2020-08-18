@@ -128,8 +128,8 @@
   }
 }
 
-// Delay each nav item slide
-@for $x from 1 through 4 {
+// ดีเลย์สไลด์เมนู
+@for $x from 1 through 5 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
