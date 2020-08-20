@@ -129,7 +129,7 @@
 }
 
 // ดีเลย์สไลด์เมนู
-@for $x from 1 through 5 {
+@for $x from 1 through 6 {
   .nav-item:nth-child(#{$x}) {
     transition-delay: $x * 0.1s;
   }
